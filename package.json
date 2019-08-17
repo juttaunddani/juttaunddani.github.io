@@ -1,5 +1,5 @@
 {
-  "name": "wedding-website",
+  "name": "wedding",
   "version": "1.0.0",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:rampatra/wedding-website.git"
+    "url": "git+ssh://git@github.com/juttaunddani/wedding.git"
   },
   "keywords": [
     "wedding",
     "template",
     "website template"
   ],
-  "author": "Ram Patra",
+  "author": "juttaunddani",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/rampatra/wedding-website",
+  "homepage": "https://github.com/juttaunddani/wedding",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
@@ -27,6 +27,11 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "font-awesome": "^4.7.0",
+    "gulp-typescript": "^5.0.1",
+    "merge2": "^1.2.4",
     "waypoints": "^4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/juttaunddani/wedding/issues"
   }
 }
