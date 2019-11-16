@@ -252,11 +252,12 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 800px;
-  background: url('../img/077_Jutta_Daniel_KS.jpg') center -100px;
+  background: url('../img/077_Jutta_Daniel_KS.jpg') center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 
   /*.rsvp-btn {
