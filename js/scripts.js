@@ -101,6 +101,17 @@ $(document).ready(function () {
                 $('header .navicon').css({
                     "top": "34px",
                 });
+                $('header a').css({
+                    "color": "#fff"
+                });
+                $('header a').hover(
+                    function() {
+                        $(this).css("color", "#e8ca6f");
+                    },
+                    function() {
+                        $(this).css("color", "#fff");
+                    }
+                );
             } else {
                 $('section.navigation').removeClass('fixed');
                 $('header').css({
@@ -113,6 +124,17 @@ $(document).ready(function () {
                 $('header .navicon').css({
                     "top": "48px",
                 });
+                $('header a').css({
+                    "color": "#000"
+                });
+                $('header a').hover(
+                    function() {
+                        $(this).css("color", "#e8ca6f");
+                    },
+                    function() {
+                        $(this).css("color", "#000");
+                    }
+                );
             }
         });
     });
