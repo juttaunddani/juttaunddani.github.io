@@ -216,7 +216,7 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jul 13, 2020 00:04'),
+            end: new Date('Jul 13, 2020 03:00'),
 
             // Event Address
             address: 'Volksbank Eventhalle, Forchheim',
