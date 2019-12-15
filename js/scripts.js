@@ -236,7 +236,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Einen Augenblick!</strong> Wir speichern die Daten.'));
 
-        if (MD5($('#invite_code').val()) !== '3239be2abe3a82b05d11503ea853c8f5') {
+        if (MD5($('#invite_code').val()) !== '5522e4a56247e6a8e92a946111f09472') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Der Einladungscode ist falsch.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbygB-sfp0HAMr3zgY0mnXroMkPIMDP-FwhbYRilynyD--Rrqzg/exec', data)
