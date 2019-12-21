@@ -83,61 +83,6 @@ $(document).ready(function () {
 
     });
 
-    /***************** Header BG Scroll ******************/
-
-    $(function () {
-        $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 20) {
-                $('section.navigation').addClass('fixed');
-                $('header').css({
-                    "border-bottom": "none",
-                    "padding": "35px 0"
-                });
-                $('header .member-actions').css({
-                    "top": "26px",
-                });
-                $('header .navicon').css({
-                    "top": "34px",
-                });
-                $('header a').css({
-                    "color": "#fff"
-                });
-                $('header a').hover(
-                    function() {
-                        $(this).css("color", "#e8ca6f");
-                    },
-                    function() {
-                        $(this).css("color", "#fff");
-                    }
-                );
-            } else {
-                $('section.navigation').removeClass('fixed');
-                $('header').css({
-                    "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
-                    "padding": "50px 0"
-                });
-                $('header .member-actions').css({
-                    "top": "41px",
-                });
-                $('header .navicon').css({
-                    "top": "48px",
-                });
-                $('header a').css({
-                    "color": "#000"
-                });
-                $('header a').hover(
-                    function() {
-                        $(this).css("color", "#e8ca6f");
-                    },
-                    function() {
-                        $(this).css("color", "#000");
-                    }
-                );
-            }
-        });
-    });
     /***************** Smooth Scrolling ******************/
 
     $(function () {
@@ -209,14 +154,14 @@ $(document).ready(function () {
             title: "Jutta & Dani Hochzeit",
 
             // Event start date
-            start: new Date('Jul 12, 2020 14:00'),
+            start: new Date('Jul 11, 2020 14:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jul 13, 2020 03:00'),
+            end: new Date('Jul 12, 2020 03:00'),
 
             // Event Address
             address: 'Volksbank Eventhalle, Forchheim',

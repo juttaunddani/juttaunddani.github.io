@@ -245,7 +245,7 @@ Navigation
   position: absolute;
   height: 26px;
   right: 10px;
-  top: 48px;
+  top: 25px;
   visibility: hidden;
   transition: all 300ms ease-in-out;
 }
@@ -292,18 +292,14 @@ Hero
 .navigation {
   transition: all 300ms ease-in-out;
   position: fixed;
-  width: 100%;
-  z-index: 999;
-}
-.fixed {
-  position: fixed;
   background-color: rgba(55, 36, 40, .88);
-  z-index: 999;
   width: 100%;
+  z-index: 999;
 }
+
 header {
-  padding: 50px 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  padding: 25px 0;
+  border-bottom: none;
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -332,7 +328,7 @@ header {
       display: inline;
 
       a {
-        color: $black-color;
+        color: $txt-light;
         padding-right: 25px;
 
         &:hover {
@@ -349,7 +345,7 @@ header {
       display: inline;
 
       a {
-        color: $black-color;
+        color: $txt-light;
 
         &:hover {
           color: $accent-color;
@@ -363,7 +359,7 @@ header {
   .member-actions {
     position: absolute;
     right: 0;
-    top: 41px;
+    top: 16px;
     transition: all 300ms ease-in-out;
   }
 }
@@ -646,6 +642,24 @@ Features-stack
   figcaption a.blog-post-title:hover, figcaption a.blog-post-title:focus {
     color: $txt-secondary;
   }
+}
+
+/* ==========================================================================
+Table
+========================================================================== */
+table {
+  font-family: $sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
 }
 
 /* ==========================================================================
