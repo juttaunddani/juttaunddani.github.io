@@ -54,17 +54,18 @@ $(document).ready(function () {
     });
 
     /***************** Initiate Fancybox ******************/
-
-    $('.single_image').fancybox({
-        padding: 4
+    $('[data-fancybox="gallery"]').fancybox({
+        // Options will go her
+        buttons: [
+            //"zoom",
+            //"share",
+            "slideShow",
+            "fullScreen",
+            //"download",
+            "thumbs",
+            "close"
+        ]
     });
-
-    $('.fancybox').fancybox({
-        padding: 4,
-        width: 1000,
-        height: 800
-    });
-
     /***************** Tooltips ******************/
     $('[data-toggle="tooltip"]').tooltip();
 
