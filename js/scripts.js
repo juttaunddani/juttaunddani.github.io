@@ -152,7 +152,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Jutta & Dani Hochzeit",
+            title: "Hochzeit Jutta und Dani",
 
             // Event start date
             start: new Date("2021-08-14 14:00"),
