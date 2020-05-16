@@ -162,7 +162,7 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date("2021-08-14 03:00"),
+            end: new Date("2021-08-15 03:00"),
 
             // Event Address
             address: 'Volksbank Eventhalle, Forchheim',
