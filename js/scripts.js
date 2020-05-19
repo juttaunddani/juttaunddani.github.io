@@ -152,23 +152,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Hochzeit Jutta und Dani",
+            title: "Jutta & Dani Hochzeit",
 
             // Event start date
-            start: new Date("2021-08-14 14:00"),
+            start: new Date('Jul 11, 2020 14:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date("2021-08-15 03:00"),
+            end: new Date('Jul 12, 2020 03:00'),
 
             // Event Address
             address: 'Volksbank Eventhalle, Forchheim',
 
             // Event Description
-            description: "Wir freuen uns auf euch an unserem großen Tag.\nFür jegliche Fragen einfach eine Email an juttaunddani@gmail.com oder unter 0163 4390249 anrufen."
+            description: "Wir freuen uns auf euch an unserem großen Tag.\nFür jegliche Fragen einfach eine Email an juttaunddani@gmail.com oder unter 0163 430249 anrufen."
         }
     });
 
